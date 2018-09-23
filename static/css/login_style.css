@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background: url(img/slider4.png); */
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  z-index: -10;
+}
+
+#overlay {
+  position: absolute;
+  background: linear-gradient(45deg,#151680 50%,#261681 50%);
+  z-index: -5;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.titless{
+display: block;
+font-family: Poppins-Bold;
+font-size: 30px;
+color: #fff;
+line-height: 1.2;
+text-align: center;
+margin:0px 0px 30px 0px;
+}
+
+.loginbox {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    padding: 25px 30px;
+    background-color: #D20B54;
+    color: #6b6666;
+    border-radius: 5px;
+    transition: 200ms all ease-in-out;
+    cursor: pointer;
+    margin: 17% 9% 0% 4%;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+  padding: 0 0 0px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #bdc3c7;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+  opacity: 1;
+  color: #ccc;
+}
+
+.loginbox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fff;
+  color: #E91E63;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.loginbox input[type="submit"]:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #F68B1E;
+}
+
+.loginbox a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.loginbox a:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+#text-account {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.4;
+}
+
+#create-account: hover {
+  text-decoration: underline;
+  font-weight: bold;
+}

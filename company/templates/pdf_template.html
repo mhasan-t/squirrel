@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Data PDF</title>
+</head>
+<body>
+
+<style>
+    .cont-list-header{
+    font-weight: bold;
+    }
+    #address-header{
+    font-weight: bold;
+    }
+    #address-list{
+    font-style: italic;
+    }
+    #contacts-list{
+    font-style: italic;
+    }
+    #comp-name{
+    font-family: "Times New Roman", Times, serif;
+    }
+    #comp-type{
+    font-family: serif, Times ;
+    }
+
+    #comp-ov{
+    font-family: sans-serif, Times;
+    }
+
+    #contact-header{
+    font-family: serif, Times ;
+    }
+    #contacts-list{
+    font-family: sans-serif, Times;
+    }
+</style>
+
+
+
+<h2 id="comp-name">{{ companyObject.name }}</h2> <br>
+<h5 id="comp-type">{{ companyObject.type }}</h5> <br>
+<p id="comp-ov">{{ companyObject.overview }}</p> <br>
+
+<div id="comp-address">
+    <h6 id="address-header">Address</h6>
+    <ul id="address-list">
+        <li>
+            {{ companyObject.address }}
+        </li>
+    </ul>
+</div>
+
+
+
+<div id="comp-contact">
+
+    <h6 id="contact-header">Contact Information</h6>
+    <ul id="contacts-list">
+        <p class="cont-list-header">E-Mail</p>
+        <li>{{ companyObject.email }}</li>
+        <p class="cont-list-header">Phone</p>
+        <li>{{ companyObject.phone }}</li>
+    </ul>
+</div>
+
+
+
+</body>
+</html>
